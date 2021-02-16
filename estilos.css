@@ -4,6 +4,27 @@
   margin: 0;
 }
 
+
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  background-color: #2d3142;
+  color: white;
+  font-size: 28px;
+}
+
+footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d3142;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+
 body {
   font-size: 16px;
 }
@@ -25,5 +46,6 @@ aside ul li {
   background-color: #d8d5db;
 }
 h2 {
+
 
 }
