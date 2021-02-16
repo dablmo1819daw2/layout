@@ -115,12 +115,10 @@ h2 {
 .textos {
     margin: .9rem;
     font-size: 16px;
+    margin-left: 0;
 }
 .textos:last-of-type {
 margin-bottom: 0;
-}
-.titular {
-padding-left: 15px;
 }
 
 header, article, aside, footer {
