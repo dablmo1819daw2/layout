@@ -47,16 +47,26 @@ aside ul li {
 }
 h2 {
     font-size: 25px;
-    margin: .9rem;
+   /* margin: .9rem;*/
     margin-top: 0;
 }
 .textos {
     margin: .9rem;
-    padding-left: 5px;
-    padding-right: 50px;
     font-size: 16px;
 }
-
 .textos:last-of-type {
 margin-bottom: 0;
+}
+.titular {
+padding-left: 15px;
+}
+
+header, article, aside, footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+article, aside {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
