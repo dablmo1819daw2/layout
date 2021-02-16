@@ -21,9 +21,21 @@ aside ul li {
   margin: .5rem;
   margin-left: 0;
 }
-.contenido {
+ article  {
   background-color: #d8d5db;
 }
 h2 {
+    font-size: 25px;
+    margin: .9rem;
+    margin-top: 0;
+}
+.textos {
+    margin: .9rem;
+    padding-left: 5px;
+    padding-right: 50px;
+    font-size: 16px;
+}
 
+.textos:last-of-type {
+margin-bottom: 0;
 }
