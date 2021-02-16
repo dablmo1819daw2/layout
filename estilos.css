@@ -4,7 +4,6 @@
   margin: 0;
 }
 
-
 header {
   height: 100px;
   display: flex;
@@ -12,8 +11,8 @@ header {
   padding-left: 15px;
   background-color: #2d3142;
   color: white;
-  font-size: 28px;
 }
+
 
 footer {
   height: 100px;
@@ -30,6 +29,8 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 }
 
 li {
@@ -95,12 +96,7 @@ aside {
   background-color: #adacb5;
 }
 
-aside .title {
-  font-size: 2rem;
-}
-
 aside ul li {
-  font-size: 1.25rem;
   margin: .5rem;
   margin-left: 0;
 }
@@ -108,7 +104,6 @@ aside ul li {
   background-color: #d8d5db;
 }
 h2 {
-    font-size: 25px;
    /* margin: .9rem;*/
     margin-top: 0;
 }
@@ -116,6 +111,7 @@ h2 {
     margin: .9rem;
     font-size: 16px;
     margin-left: 0;
+    text-align: justify;
 }
 .textos:last-of-type {
 margin-bottom: 0;
@@ -129,4 +125,13 @@ header, article, aside, footer {
 article, aside {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.titulo {
+  font-size: 2.5rem;
+}
+
+.titular {
+  font-size: 1.8rem;
+
 }
